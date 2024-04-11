@@ -1,0 +1,24 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ],
+  "compilerOptions": {
+    "strict": false,
+    "allowJs": true, // 允许编译 JavaScript 文件
+    "esModuleInterop": true,
+    // 其他配置项...
+  },
+  "include": [
+    "src/**/*.ts",  // 包含所有 TypeScript 文件
+    "src/**/*.vue"  // 包含所有 Vue 文件
+  ]
+}
